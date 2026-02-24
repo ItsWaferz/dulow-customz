@@ -1,5 +1,5 @@
 import { Volume2, Shield, Zap } from "lucide-react";
-import logoImage from "/logo.jpg";
+import logoImage from "/logo.png";
 
 export function Hero() {
   return (
