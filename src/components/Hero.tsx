@@ -1,4 +1,5 @@
 import { Volume2, Shield, Zap } from "lucide-react";
+import logoImage from "/logo.jpg";
 
 export function Hero() {
   return (
@@ -15,7 +16,7 @@ export function Hero() {
               <div className="absolute -inset-4 bg-yellow-400/30 rounded-full blur-xl animate-pulse -translate-y-2"></div>
               <div className="relative w-24 h-24 md:w-28 md:h-28 border-4 border-yellow-400 rounded-full overflow-hidden -translate-y-2">
                 <img
-                  src={`${import.meta.env.BASE_URL}logo.jpg`}
+                  src={logoImage}
                   alt="DuLow Customz Logo"
                   className="w-full h-full object-cover"
                 />

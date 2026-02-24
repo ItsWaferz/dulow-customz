@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import logoImage from "/logo.jpg";
 
 export function Footer() {
   return (
@@ -9,7 +10,7 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="relative w-16 h-16 border-4 border-yellow-400 rounded-full overflow-hidden shadow-2xl shadow-yellow-400/50">
                 <img
-                  src="/logo.jpg"
+                  src={logoImage}
                   alt="DuLow Customz Logo"
                   className="w-full h-full object-cover"
                 />
