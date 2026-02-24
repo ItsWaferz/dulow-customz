@@ -39,12 +39,9 @@ export function About() {
             className="bg-gray-800/50 backdrop-blur border-2 border-gray-700 rounded-2xl p-6 md:p-8 hover:border-yellow-400 transition-all hover:scale-105"
           >
             <div className="flex items-center justify-between mb-6">
-              {/* Folosim direct clasele statice pentru background */}
               <div className="bg-yellow-400/10 p-4 rounded-xl">
-                {/* Folosim direct clasele statice pentru icon */}
                 <Icon className="w-8 h-8 text-yellow-400" />
               </div>
-              {/* Folosim direct clasele statice pentru numărul stratului */}
               <div className="text-yellow-400 text-5xl font-black opacity-20">
                 {product.layer}
               </div>
@@ -53,7 +50,6 @@ export function About() {
             <h3 className="text-white text-2xl font-bold mb-2">
               {product.name}
             </h3>
-            {/* Folosim direct clasele statice pentru subtitlu */}
             <p className="text-yellow-400 font-semibold mb-4 text-sm">
               STRATUL {product.layer} - {product.brand}
             </p>
